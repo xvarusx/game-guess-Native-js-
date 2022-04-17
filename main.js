@@ -35,5 +35,4 @@ document.querySelector(".again").addEventListener("click", function (e) {
   score = 20;
   document.querySelector(".message").textContent = "Start guessing...";
   document.querySelector(".score").textContent = "0";
-  document.querySelector(".number").textContent = correctNumber;
 });
