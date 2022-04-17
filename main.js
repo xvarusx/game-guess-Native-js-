@@ -24,6 +24,9 @@ document.querySelector(".check").addEventListener("click", function (e) {
       if (score > highScore) {
         highScore = score;
         document.querySelector(".highscore").textContent = String(highScore);
+        document.querySelector("body").style.backgroundColor = "#60b347";
+        document.querySelector(".number").style.width = "30rem";
+        document.querySelector(".number").textContent = correctNumber;
       }
     }
     // document.querySelector(".highscore").textContent = string(highScore);
@@ -35,4 +38,6 @@ document.querySelector(".again").addEventListener("click", function (e) {
   score = 20;
   document.querySelector(".message").textContent = "Start guessing...";
   document.querySelector(".score").textContent = "0";
+  document.querySelector(".number").textContent = "?";
+  document.querySelector("body").style.backgroundColor = "#222";
 });

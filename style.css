@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+:root{
+  --green-color:#60b347;
+}
 
 * {
   margin: 0;
@@ -127,4 +130,5 @@ h1 {
   left: 40%;
   transform: translate(0%,-50%);
   font-size: 2rem;
+  color:red;
 }
