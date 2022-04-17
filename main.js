@@ -2,7 +2,6 @@ import { guessMyNumber, randomNumber } from "./vendor/guessMyNumber/main.js";
 var correctNumber = randomNumber();
 var score = 20,
   highScore = 0;
-document.querySelector(".number").textContent = correctNumber;
 
 document.querySelector(".check").addEventListener("click", function (e) {
   e.preventDefault();
